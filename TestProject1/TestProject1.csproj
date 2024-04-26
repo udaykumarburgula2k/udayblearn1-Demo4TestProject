@@ -20,6 +20,8 @@
 	
    <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
 	   <PackageReference Include="Newtonsoft.Json" VersionOverride="13.0.1" />
+       <PackageReference Include="System.Text.RegularExpressions" VersionOverride="4.3.1" />
+       <PackageReference Include="System.Net.Http" VersionOverride="4.3.4" />
    </ItemGroup>
 
 </Project>
